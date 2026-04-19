@@ -1,0 +1,49 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Dave Burkhart" [ref=e5] [cursor=pointer]:
+      - /url: /
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e9]:
+        - link "Resume" [ref=e10] [cursor=pointer]:
+          - /url: /resume
+      - listitem [ref=e11]:
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+      - listitem [ref=e13]:
+        - link "Downloads" [ref=e14] [cursor=pointer]:
+          - /url: /downloads
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - img "DB Logo" [ref=e18]
+      - generic [ref=e20]:
+        - generic "HTML5" [ref=e21]:
+          - img [ref=e22]
+        - generic "CSS3" [ref=e24]:
+          - img [ref=e25]
+        - generic "JavaScript" [ref=e27]:
+          - img [ref=e28]
+        - generic "React" [ref=e30]:
+          - img [ref=e31]
+        - generic "PostgreSQL" [ref=e33]:
+          - img [ref=e34]
+        - generic "Node.js" [ref=e36]:
+          - img [ref=e37]
+        - generic "Express" [ref=e39]:
+          - img [ref=e40]
+      - paragraph [ref=e42]: Architecting full-stack solutions. Building digital experiences. Sharing innovation.
+      - generic [ref=e43]:
+        - link "GitHub" [ref=e44] [cursor=pointer]:
+          - /url: https://github.com/drb2023
+          - img [ref=e45]
+        - link "LinkedIn" [ref=e47] [cursor=pointer]:
+          - /url: https://linkedin.com/in/davidburkhart
+          - img [ref=e48]
+        - link "Email" [ref=e50] [cursor=pointer]:
+          - /url: mailto:drb47303@gmail.com
+          - img [ref=e51]
+    - link "Scroll down" [ref=e54] [cursor=pointer]:
+      - /url: "#next"
+      - img [ref=e55]
