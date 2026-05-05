@@ -8,12 +8,31 @@ import {
 import "../styles/pages.css";
 import avtechThumbDark from "../assets/images/avtech-logo-dk-bkgnd.png";
 // import avtechThumbLight from "../assets/images/avtech-blk-logo-lt-bkgnd.png";
+import shippingCalcThumb from "../assets/images/shipping-calculator-thumb.jpg";
 
 const CONTACT_EMAIL = "drb47303@gmail.com";
 
 const PROJECTS = [
   {
     id: 1,
+    title: "Shipping Calculator",
+    description:
+      "A clean, responsive shipping rate calculator that lets users compare real-time rates across multiple carriers (USPS, UPS, FedEx) for a given package and destination. Built with a React frontend and a Node.js/Express backend that proxies carrier API calls.",
+    tech: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Vite",
+      "CSS",
+    ],
+    live: "https://db-shipping-calculator.netlify.app",
+    repo: "https://github.com/drb2023/shipping-calculator",
+    proprietary: false,
+    thumb: shippingCalcThumb,
+  },
+  {
+    id: 2,
     title: "Av-Tech Electronics",
     description:
       "A full-stack web application for Av-Tech Electronics, an emergency vehicle upfitter, featuring shop management tools including: Keylog, Customer Profiles, Vehicle Profiles, Digital Work-Orders, Vehicle Check Sheets, Vehicle Pictures, Tech Time Sheets, Programming Files, & QR Code Linking. Designed to eliminate paper-based processes and increase efficiency in the shop. Built with a React frontend and Appwrite BaaS backend.",
